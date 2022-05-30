@@ -100,12 +100,11 @@ body{
     font-family: inherit;
     background: var(--light-blue-txt-color);
     cursor: pointer;
-    font-weight: 700;
     color: var(--white-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
-    
+    border: none;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -267,3 +266,76 @@ footer{
     color: var(--dark-blue-txt-color);
 }
 
+
+
+
+/* СЕКТОР ПОРТФОЛІО */
+
+/* FILTERS SECTION */
+
+.filters-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-color);
+}
+
+.filters-list{
+    list-style: none;
+}
+
+.filters-list button{
+    font-family: inherit;
+    border: none;
+    background: var(--light-grey-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--main-txt-color);
+}
+
+.filters-list button:hover,
+.filters-list button:focus{
+    background-color: var(--medium-light-blue-color);
+    color: var(--white-color);
+}
+    
+.filters-list button:active {
+    background-color: var(--dark-blue-txt-color);
+    color: var(--dark-white-color);
+}
+
+/* TEMPLATES SECTION */
+
+.template-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-color);
+}
+
+.template-list{
+    list-style: none;
+}
+
+.template-list h3{
+    font-weight: 700;
+     font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-txt-color);
+}
+
+.template-list p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
