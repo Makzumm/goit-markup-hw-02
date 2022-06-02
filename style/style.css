@@ -94,6 +94,7 @@ body{
     line-height: 1.36;
     color: var(--white-color);
     text-align: center;
+    text-transform: uppercase;
 }
 
 .hero-button{
@@ -253,7 +254,7 @@ footer{
 } 
 
 .footer-list a{
-    color: var(--grey-color);
+    color: rgba(255, 255, 255, 60%);
     text-decoration: none;
 }
 
